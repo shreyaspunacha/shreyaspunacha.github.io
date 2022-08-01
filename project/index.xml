@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Shreyas Punacha</title>
+    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/</link>
+      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Jul 2022 11:44:04 +0530</lastBuildDate>
+    <image>
+      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Unpinning Spiral Waves Using Circularly Polarised Electric Fields</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
+      <pubDate>Wed, 27 Jul 2022 11:44:04 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
+      <description>&lt;p&gt;Spiral waves have been found in a variety of human organs like the surface of the retina causing migraine, inside the brain fostering epilepsy and in the heart muscle leading to fatal cardiac arrhythmias.
+In many physiological tissues, such rotating waves of activity are pathological, and in heart, it leads to cardiac rhythm disorders or even fatal conditions such as ventricular fibrillation. Thus in many situations, it is desirable to remove such spiral waves from the medium.&lt;/p&gt;
+&lt;p&gt;However, in heterogeneous media, rotating spiral waves tend to move towards heterogeneities (henceforth called obstacles) in the medium and rotate around the boundary of the obstacle as if the wave is pinned to it.
+Unpinning a pinned wave requires a careful stimulus given close to the core of the pinned wave and within a short time interval known as the unpinning window of the spiral wave. One method of eliminating these spirals are by using multiple periodic field pulses. The idea here is to shoot multiple pulses at the rotating spiral and hope that one pulse falls into the unpinning window and eliminates the pinned spiral. However, there is a problem with this approach. If the unpinning window is quite narrow, the chances of pulses delivered falling into the unpinning window are very less. To circumvent the problem, we use circularly polarised electric fields instead of traditional dc field pulses.&lt;/p&gt;
+&lt;p&gt;In this project, we present a mechanism for unpinning the spiral waves using circularly polarised electric fields. We show that for a given obstacle size, there exists a time period of the CPEF below which spiral can always be unpinned. We call it the cut-off time period. We also show that the termination always happens within the first period of the CPEF. We derive a robust and generalised analytical formulation which explains the findings of the simulations. Our theory accurately predicts the cut-off time period of CPEF. In particular, we show that unpinning is always successful if the period of the CPEF is below the cut-off period. We also show that the cut-off period depends linearly on the radius of the obstacle. We find that there is no traditional unpinning window with the circularly polarised electric field.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
+      <pubDate>Wed, 27 Jul 2022 10:18:55 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
+      <description>&lt;p&gt;Rotating spiral waves are often
+associated with functional disorders in physiological tissue, like reentrant
+electrical activity in the heart during cardiac
+arrhythmias. Therefore, it is essential to devise methods to
+eliminate them. But rotating waves in heterogeneous excitable media
+tend to attach to heterogeneities (or obstacles) and form stable pinned
+waves. These pinned waves have to be unpinned first to be able to eliminate them.&lt;br&gt;
+They can be unpinned if an electric stimulus is delivered very close to the pinning centre
+and within a specific time interval called the unpinning window, i.e., the stimulus has to be within a narrow spatial and temporal
+window.&lt;/p&gt;
+&lt;p&gt;Recently, many groups have started using periodic field pulses to increase the
+chances of unpinning. The idea here is to fire
+multiple pulses at a rotating spiral and hope one pulse would fall into the unpinning
+window and eliminate the pinned spiral. Studies so far have focused on
+unpinning a rotating wave by secondary excitations emanating from the obstacle itself. However, these studies show that unpinning window is quite narrow compared to the
+experimental studies on the intact heart. So far, the larger width of the unpinning window in the intact
+heart is attributed to its 3D structure. However, we hypothesised that if an additional obstacle is put close
+to the existing obstacle, the collective width of their unpinning window must increase. This induced us to study the role of multiple wave emitting sites in the unpinning process. Also, multiple heterogeneities in close vicinity offer the possibility of additional stimulus sites and additional anchoring sites. In such cases, one needs to examine how the distribution of heterogeneities modifies the unpinning window. Despite their critical importance in low-energy anti-fibrillation techniques, this problem has not received much attention. We study how these additional obstacles can alter the unpinning of a single spiral.&lt;/p&gt;
+&lt;p&gt;In this project, we show that secondary excitations emanating from nearby heterogeneities can unpin a wave attached in the vicinity in monolayers of cardiac cells. We then undertake a detailed numerical study of the wave unpinning in the presence of two heterogeneities.
+We found that the unpinning window either increases or decreases in the presence of additional heterogeneity.
+Their influence depends on their
+orientation with respect to the electric field, distance from the obstacle, and
+size. Along certain orientations, unpinning completely fails.&lt;/p&gt;
+&lt;p&gt;The figure shows success and failure of unpinning of spiral pinned to an
+obstacle in the presence of the additional wave emitting site. Black vertical arrow on the right indicates the direction of applied electric field of strength $E_{0} = 1.2$
+V/cm. (a) Spiral is pinned to an obstacle of radius
+3 mm with second obstacle of radius 2 mm nearby.
+(b) Nucleation of secondary excitation by the application of short timed pulse.
+(c-d) Detachment of the original spiral from the obstacle resulting in
+successful unpinning. (e) Spiral wave pinned to the central obstacle at a
+different initial phase. (h) The spiral
+getting pinned back to the second obstacle leading to failure of unpinning.
+(i) The unpinning window for the above configuration of the obstacles.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

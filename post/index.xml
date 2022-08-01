@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Shreyas Punacha</title>
+    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/</link>
+      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 21 Jul 2022 16:04:07 +0530</lastBuildDate>
+    <image>
+      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Excitable Medium: From Wildfires To Cardiac Arrhythmias</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</link>
+      <pubDate>Thu, 21 Jul 2022 16:04:07 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Every year wildfires consume thousands of hectares of forests worldwide, causing great devastation to wildlife and humankind. As climate change is accelerating the frequency of
+wildfires around the planet, scientists are looking for better ways to predict and control them. The problem they are dealing with is surprisingly similar to the electrical signals that cause arrhythmias in the heart. So, what connects these raging wildfires across the world to the electrical signals in the heart?&lt;/p&gt;
+&lt;p&gt;The connection between the forest fire-front and the electrical signals that wreck havoc in the heart becomes apparent when we look at the mathematics of their wave propagation. Mathematically, both the media are classified as excitable media, and these waves are called excitation waves.&lt;/p&gt;
+&lt;p&gt;Excitable media is made up of a large number of elements (or cells) distributed in space, each element of which possesses the property of excitability. The elements of the excitable medium interact with each other through diffusion-like coupling. The general properties of an excitable element are the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Each element has a stable resting state. We can compare this condition to a fully grown and thriving forest.&lt;/li&gt;
+&lt;li&gt;The cell has an excitation threshold. The cell can only be activated if the stimulus is above this threshold. For example, a tiny spark at some corner of the forest may not be able to sustain a fire. A certain amount of initial fire is required to start and maintain the fire.&lt;/li&gt;
+&lt;li&gt;Each cell has a property of refractoriness. The cell takes a certain amount of time to be ready for a second stimulus following the first excitation. During this time interval, another stimulus, no matter how strong, will not be able to generate a second activation. This time interval is called the refractory period of the cell.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the forest is totally burned down, the fire cannot sustain as no fuel is left to burn. To start a new fire, we must wait until the forest re-grows. The time taken to regrow the forest corresponds to the refractory period of the forest. Because excitable media take time to recover after a wave passes, two waves in such a system would annihilate each other instead of passing through each other like sound waves or water waves.&lt;/p&gt;
+&lt;p&gt;In the case of a forest fire, the refractory period can last for several months or even years. However, in certain biological and chemical media, the refractory period lasts only a few hundred milliseconds. Because of the short refractory period,  they can exhibit complex pattern formation like rotating spiral waves. Examples of spiral waves in other forms of the excitable medium are shown in the figures above.&lt;/p&gt;
+&lt;p&gt;Fig (a) shows the spiral waves in an oscillating chemical medium called the Belousov-Zhabotinsky reaction. Fig (b) shows the simulated spiral wave in a rabbit heart. Fig (c) shows multiple spiral waves in a starving colony of amoeba called Dictostellium Discodium. Fib (d) is a harmless condition called Geographic tongue where spiral waves form on the human tongue.&lt;/p&gt;
+&lt;h2 id=&#34;cardiac-arrhythmia&#34;&gt;Cardiac Arrhythmia&lt;/h2&gt;
+&lt;p&gt;A heart muscle is made up of cells that contract and relax according to the electrical signals sent out by the natural pacemaker cells called the Siano-Atrial node. As the waves emitted by the SA node spread across the muscle, the heart beats and facilitates blood circulation throughout the body. A normal heart would beat about 60-100 times per minute.&lt;/p&gt;
+&lt;p&gt;Under certain conditions, the abnormalities in the heart can alter the shape of the waves emitted by the Siano-Atrial node and give rise to spiral waves. Since a spiral wave rotates with a much higher frequency and propagates differently from the normal pacemaker signal, it will result in the disruption of the normal blood pumping ability of the heart. This condition is called cardiac arrhythmia.&lt;/p&gt;
+&lt;p&gt;Therefore, a better understanding of the dynamics of spiral waves may lead to safer and less invasive ways to treat different forms of arrhythmias. There are several methods of treating arrhythmias, such as drug therapy and defibrillation. We shall discuss these methods in detail in future posts.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

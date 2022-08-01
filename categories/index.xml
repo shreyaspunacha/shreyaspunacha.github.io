@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories | Shreyas Punacha</title>
+    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/categories/</link>
+      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <title>Categories</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/categories/</link>
+    </image>
+    
+  </channel>
+</rss>

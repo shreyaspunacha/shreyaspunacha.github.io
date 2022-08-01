@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shreyas Punacha</title>
+    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/</link>
+      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Shreyas Punacha</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <title>Shreyas Punacha</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/talk/example-talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/talk/example-talk/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Unpinning Spiral Waves Using Circularly Polarised Electric Fields</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
+      <pubDate>Wed, 27 Jul 2022 11:44:04 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
+      <description>&lt;p&gt;Spiral waves have been found in a variety of human organs like the surface of the retina causing migraine, inside the brain fostering epilepsy and in the heart muscle leading to fatal cardiac arrhythmias.
+In many physiological tissues, such rotating waves of activity are pathological, and in heart, it leads to cardiac rhythm disorders or even fatal conditions such as ventricular fibrillation. Thus in many situations, it is desirable to remove such spiral waves from the medium.&lt;/p&gt;
+&lt;p&gt;However, in heterogeneous media, rotating spiral waves tend to move towards heterogeneities (henceforth called obstacles) in the medium and rotate around the boundary of the obstacle as if the wave is pinned to it.
+Unpinning a pinned wave requires a careful stimulus given close to the core of the pinned wave and within a short time interval known as the unpinning window of the spiral wave. One method of eliminating these spirals are by using multiple periodic field pulses. The idea here is to shoot multiple pulses at the rotating spiral and hope that one pulse falls into the unpinning window and eliminates the pinned spiral. However, there is a problem with this approach. If the unpinning window is quite narrow, the chances of pulses delivered falling into the unpinning window are very less. To circumvent the problem, we use circularly polarised electric fields instead of traditional dc field pulses.&lt;/p&gt;
+&lt;p&gt;In this project, we present a mechanism for unpinning the spiral waves using circularly polarised electric fields. We show that for a given obstacle size, there exists a time period of the CPEF below which spiral can always be unpinned. We call it the cut-off time period. We also show that the termination always happens within the first period of the CPEF. We derive a robust and generalised analytical formulation which explains the findings of the simulations. Our theory accurately predicts the cut-off time period of CPEF. In particular, we show that unpinning is always successful if the period of the CPEF is below the cut-off period. We also show that the cut-off period depends linearly on the radius of the obstacle. We find that there is no traditional unpinning window with the circularly polarised electric field.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
+      <pubDate>Wed, 27 Jul 2022 10:18:55 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
+      <description>&lt;p&gt;Rotating spiral waves are often
+associated with functional disorders in physiological tissue, like reentrant
+electrical activity in the heart during cardiac
+arrhythmias. Therefore, it is essential to devise methods to
+eliminate them. But rotating waves in heterogeneous excitable media
+tend to attach to heterogeneities (or obstacles) and form stable pinned
+waves. These pinned waves have to be unpinned first to be able to eliminate them.&lt;br&gt;
+They can be unpinned if an electric stimulus is delivered very close to the pinning centre
+and within a specific time interval called the unpinning window, i.e., the stimulus has to be within a narrow spatial and temporal
+window.&lt;/p&gt;
+&lt;p&gt;Recently, many groups have started using periodic field pulses to increase the
+chances of unpinning. The idea here is to fire
+multiple pulses at a rotating spiral and hope one pulse would fall into the unpinning
+window and eliminate the pinned spiral. Studies so far have focused on
+unpinning a rotating wave by secondary excitations emanating from the obstacle itself. However, these studies show that unpinning window is quite narrow compared to the
+experimental studies on the intact heart. So far, the larger width of the unpinning window in the intact
+heart is attributed to its 3D structure. However, we hypothesised that if an additional obstacle is put close
+to the existing obstacle, the collective width of their unpinning window must increase. This induced us to study the role of multiple wave emitting sites in the unpinning process. Also, multiple heterogeneities in close vicinity offer the possibility of additional stimulus sites and additional anchoring sites. In such cases, one needs to examine how the distribution of heterogeneities modifies the unpinning window. Despite their critical importance in low-energy anti-fibrillation techniques, this problem has not received much attention. We study how these additional obstacles can alter the unpinning of a single spiral.&lt;/p&gt;
+&lt;p&gt;In this project, we show that secondary excitations emanating from nearby heterogeneities can unpin a wave attached in the vicinity in monolayers of cardiac cells. We then undertake a detailed numerical study of the wave unpinning in the presence of two heterogeneities.
+We found that the unpinning window either increases or decreases in the presence of additional heterogeneity.
+Their influence depends on their
+orientation with respect to the electric field, distance from the obstacle, and
+size. Along certain orientations, unpinning completely fails.&lt;/p&gt;
+&lt;p&gt;The figure shows success and failure of unpinning of spiral pinned to an
+obstacle in the presence of the additional wave emitting site. Black vertical arrow on the right indicates the direction of applied electric field of strength $E_{0} = 1.2$
+V/cm. (a) Spiral is pinned to an obstacle of radius
+3 mm with second obstacle of radius 2 mm nearby.
+(b) Nucleation of secondary excitation by the application of short timed pulse.
+(c-d) Detachment of the original spiral from the obstacle resulting in
+successful unpinning. (e) Spiral wave pinned to the central obstacle at a
+different initial phase. (h) The spiral
+getting pinned back to the second obstacle leading to failure of unpinning.
+(i) The unpinning window for the above configuration of the obstacles.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Excitable Medium: From Wildfires To Cardiac Arrhythmias</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</link>
+      <pubDate>Thu, 21 Jul 2022 16:04:07 +0530</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;Every year wildfires consume thousands of hectares of forests worldwide, causing great devastation to wildlife and humankind. As climate change is accelerating the frequency of
+wildfires around the planet, scientists are looking for better ways to predict and control them. The problem they are dealing with is surprisingly similar to the electrical signals that cause arrhythmias in the heart. So, what connects these raging wildfires across the world to the electrical signals in the heart?&lt;/p&gt;
+&lt;p&gt;The connection between the forest fire-front and the electrical signals that wreck havoc in the heart becomes apparent when we look at the mathematics of their wave propagation. Mathematically, both the media are classified as excitable media, and these waves are called excitation waves.&lt;/p&gt;
+&lt;p&gt;Excitable media is made up of a large number of elements (or cells) distributed in space, each element of which possesses the property of excitability. The elements of the excitable medium interact with each other through diffusion-like coupling. The general properties of an excitable element are the following:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Each element has a stable resting state. We can compare this condition to a fully grown and thriving forest.&lt;/li&gt;
+&lt;li&gt;The cell has an excitation threshold. The cell can only be activated if the stimulus is above this threshold. For example, a tiny spark at some corner of the forest may not be able to sustain a fire. A certain amount of initial fire is required to start and maintain the fire.&lt;/li&gt;
+&lt;li&gt;Each cell has a property of refractoriness. The cell takes a certain amount of time to be ready for a second stimulus following the first excitation. During this time interval, another stimulus, no matter how strong, will not be able to generate a second activation. This time interval is called the refractory period of the cell.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Once the forest is totally burned down, the fire cannot sustain as no fuel is left to burn. To start a new fire, we must wait until the forest re-grows. The time taken to regrow the forest corresponds to the refractory period of the forest. Because excitable media take time to recover after a wave passes, two waves in such a system would annihilate each other instead of passing through each other like sound waves or water waves.&lt;/p&gt;
+&lt;p&gt;In the case of a forest fire, the refractory period can last for several months or even years. However, in certain biological and chemical media, the refractory period lasts only a few hundred milliseconds. Because of the short refractory period,  they can exhibit complex pattern formation like rotating spiral waves. Examples of spiral waves in other forms of the excitable medium are shown in the figures above.&lt;/p&gt;
+&lt;p&gt;Fig (a) shows the spiral waves in an oscillating chemical medium called the Belousov-Zhabotinsky reaction. Fig (b) shows the simulated spiral wave in a rabbit heart. Fig (c) shows multiple spiral waves in a starving colony of amoeba called Dictostellium Discodium. Fib (d) is a harmless condition called Geographic tongue where spiral waves form on the human tongue.&lt;/p&gt;
+&lt;h2 id=&#34;cardiac-arrhythmia&#34;&gt;Cardiac Arrhythmia&lt;/h2&gt;
+&lt;p&gt;A heart muscle is made up of cells that contract and relax according to the electrical signals sent out by the natural pacemaker cells called the Siano-Atrial node. As the waves emitted by the SA node spread across the muscle, the heart beats and facilitates blood circulation throughout the body. A normal heart would beat about 60-100 times per minute.&lt;/p&gt;
+&lt;p&gt;Under certain conditions, the abnormalities in the heart can alter the shape of the waves emitted by the Siano-Atrial node and give rise to spiral waves. Since a spiral wave rotates with a much higher frequency and propagates differently from the normal pacemaker signal, it will result in the disruption of the normal blood pumping ability of the heart. This condition is called cardiac arrhythmia.&lt;/p&gt;
+&lt;p&gt;Therefore, a better understanding of the dynamics of spiral waves may lead to safer and less invasive ways to treat different forms of arrhythmias. There are several methods of treating arrhythmias, such as drug therapy and defibrillation. We shall discuss these methods in detail in future posts.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
+      <title>Dynamics and kinetics of phase transition for regular AdS black holes in general relativity coupled to non-linear electrodynamics</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Photon orbits and thermodynamic phase transition of regular AdS black holes</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Theory of unpinning of spiral waves using circularly polarized electric fields in mathematical models of excitable media</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/slides/example/</guid>
+      <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://revealjs.com/pdf-export/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PDF Export&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Code block:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;porridge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;blueberry&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Eating...&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+&lt;p&gt;Block math:&lt;/p&gt;
+&lt;p&gt;$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+  Three
+&lt;/span&gt;
+&lt;hr&gt;
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Only the speaker can read these notes
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; Press &lt;span class=&#34;sb&#34;&gt;`S`&lt;/span&gt; key to view
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  {{% /speaker_note %}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/aside&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/media/boards.jpg&#34;
+  &gt;
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-image&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;/media/boards.jpg&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;background-color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;#0000FF&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;slide&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;my-style&amp;#34;&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h1&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nc&#34;&gt;reveal&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;section&lt;/span&gt; &lt;span class=&#34;nt&#34;&gt;h3&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;k&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;kc&#34;&gt;navy&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/discussions&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unpinning spiral wave anchored to two obstacles</title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

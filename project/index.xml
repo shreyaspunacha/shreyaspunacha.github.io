@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Shreyas Punacha</title>
-    <link>https://github.com/ShreyasPunacha.github.io/project/</link>
-      <atom:link href="https://github.com/ShreyasPunacha.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://ShreyasPunacha.github.io/project/</link>
+      <atom:link href="https://ShreyasPunacha.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Jul 2022 11:44:04 +0530</lastBuildDate>
     <image>
-      <url>https://github.com/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
-      <link>https://github.com/ShreyasPunacha.github.io/project/</link>
+      <link>https://ShreyasPunacha.github.io/project/</link>
     </image>
     
     <item>
       <title>Unpinning Spiral Waves Using Circularly Polarised Electric Fields</title>
-      <link>https://github.com/ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
+      <link>https://ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
       <pubDate>Wed, 27 Jul 2022 11:44:04 +0530</pubDate>
-      <guid>https://github.com/ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
+      <guid>https://ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
       <description>&lt;p&gt;Spiral waves have been found in a variety of human organs like the surface of the retina causing migraine, inside the brain fostering epilepsy and in the heart muscle leading to fatal cardiac arrhythmias.
 In many physiological tissues, such rotating waves of activity are pathological, and in heart, it leads to cardiac rhythm disorders or even fatal conditions such as ventricular fibrillation. Thus in many situations, it is desirable to remove such spiral waves from the medium.&lt;/p&gt;
 &lt;p&gt;However, in heterogeneous media, rotating spiral waves tend to move towards heterogeneities (henceforth called obstacles) in the medium and rotate around the boundary of the obstacle as if the wave is pinned to it.
@@ -27,9 +27,9 @@ Unpinning a pinned wave requires a careful stimulus given close to the core of t
     
     <item>
       <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
-      <link>https://github.com/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
+      <link>https://ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
       <pubDate>Wed, 27 Jul 2022 10:18:55 +0530</pubDate>
-      <guid>https://github.com/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
+      <guid>https://ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
       <description>&lt;p&gt;Rotating spiral waves are often
 associated with functional disorders in physiological tissue, like reentrant
 electrical activity in the heart during cardiac

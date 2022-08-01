@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shreyas Punacha</title>
-    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/</link>
-      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://github.com/ShreyasPunacha.github.io/</link>
+      <atom:link href="https://github.com/ShreyasPunacha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Shreyas Punacha</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <url>https://github.com/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Shreyas Punacha</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/talk/example-talk/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/talk/example-talk/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Unpinning Spiral Waves Using Circularly Polarised Electric Fields</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
       <pubDate>Wed, 27 Jul 2022 11:44:04 +0530</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/project/unpinning-using-cpef/</guid>
       <description>&lt;p&gt;Spiral waves have been found in a variety of human organs like the surface of the retina causing migraine, inside the brain fostering epilepsy and in the heart muscle leading to fatal cardiac arrhythmias.
 In many physiological tissues, such rotating waves of activity are pathological, and in heart, it leads to cardiac rhythm disorders or even fatal conditions such as ventricular fibrillation. Thus in many situations, it is desirable to remove such spiral waves from the medium.&lt;/p&gt;
 &lt;p&gt;However, in heterogeneous media, rotating spiral waves tend to move towards heterogeneities (henceforth called obstacles) in the medium and rotate around the boundary of the obstacle as if the wave is pinned to it.
@@ -47,9 +47,9 @@ Unpinning a pinned wave requires a careful stimulus given close to the core of t
     
     <item>
       <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</link>
       <pubDate>Wed, 27 Jul 2022 10:18:55 +0530</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/project/two-obstacle-unpinning/</guid>
       <description>&lt;p&gt;Rotating spiral waves are often
 associated with functional disorders in physiological tissue, like reentrant
 electrical activity in the heart during cardiac
@@ -88,9 +88,9 @@ getting pinned back to the second obstacle leading to failure of unpinning.
     
     <item>
       <title>Excitable Medium: From Wildfires To Cardiac Arrhythmias</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/post/excitable_media/</link>
       <pubDate>Thu, 21 Jul 2022 16:04:07 +0530</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/post/excitable_media/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/post/excitable_media/</guid>
       <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;
 &lt;p&gt;Every year wildfires consume thousands of hectares of forests worldwide, causing great devastation to wildlife and humankind. As climate change is accelerating the frequency of
 wildfires around the planet, scientists are looking for better ways to predict and control them. The problem they are dealing with is surprisingly similar to the electrical signals that cause arrhythmias in the heart. So, what connects these raging wildfires across the world to the electrical signals in the heart?&lt;/p&gt;
@@ -113,33 +113,33 @@ wildfires around the planet, scientists are looking for better ways to predict a
     
     <item>
       <title>Dynamics and kinetics of phase transition for regular AdS black holes in general relativity coupled to non-linear electrodynamics</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photon orbits and thermodynamic phase transition of regular AdS black holes</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theory of unpinning of spiral waves using circularly polarized electric fields in mathematical models of excitable media</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punacha-2020-theory/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punacha-2020-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/slides/example/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/slides/example/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-wowchemy&#34;&gt;Create slides in Markdown with Wowchemy&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://wowchemy.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wowchemy&lt;/a&gt; | &lt;a href=&#34;https://owchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -262,25 +262,25 @@ $$&lt;/p&gt;
     
     <item>
       <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unpinning spiral wave anchored to two obstacles</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punachaunpinning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punachaunpinning/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/admin/config.yml</link>
+      <link>https://github.com/ShreyasPunacha.github.io/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/admin/config.yml</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/admin/config.yml</guid>
       <description></description>
     </item>
     

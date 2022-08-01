@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Shreyas Punacha</title>
-    <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/</link>
-      <atom:link href="https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://github.com/ShreyasPunacha.github.io/publication/</link>
+      <atom:link href="https://github.com/ShreyasPunacha.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <url>https://github.com/ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/</link>
     </image>
     
     <item>
       <title>Dynamics and kinetics of phase transition for regular AdS black holes in general relativity coupled to non-linear electrodynamics</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</link>
       <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/kumara-2021-hlt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photon orbits and thermodynamic phase transition of regular AdS black holes</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/naveena-kumara-2019-nnt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Theory of unpinning of spiral waves using circularly polarized electric fields in mathematical models of excitable media</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punacha-2020-theory/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2020-theory/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punacha-2020-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spiral wave unpinning facilitated by wave emitting sites in cardiac monolayers</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punacha-2019-spiral/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unpinning spiral wave anchored to two obstacles</title>
-      <link>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</link>
+      <link>https://github.com/ShreyasPunacha.github.io/publication/punachaunpinning/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://github.com/shreyaspunacha/ShreyasPunacha.github.io/publication/punachaunpinning/</guid>
+      <guid>https://github.com/ShreyasPunacha.github.io/publication/punachaunpinning/</guid>
       <description></description>
     </item>
     

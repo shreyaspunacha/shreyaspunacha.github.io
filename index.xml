@@ -33,6 +33,218 @@
     </item>
     
     <item>
+      <title>How To Build An Academic Website Using Hugo And Github Pages</title>
+      <link>https://ShreyasPunacha.github.io/post/hugo-website-setup/</link>
+      <pubDate>Wed, 03 Aug 2022 09:13:17 +0530</pubDate>
+      <guid>https://ShreyasPunacha.github.io/post/hugo-website-setup/</guid>
+      <description>&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;
+&lt;p&gt;Internet and social media are powerful tools to build your presence as an academic scholar, network with peers and promote your research. Besides social media, an essential online presence that one can have is a personal website.&lt;/p&gt;
+&lt;p&gt;This post describes how to set up a personal academic website using the static website generator &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Hugo&lt;/strong&gt;&lt;/a&gt; and publish it using &lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;GitHub Pages&lt;/strong&gt;&lt;/a&gt;. The post is targeted toward students, scientists and faculty members who have a basic knowledge about how to use Git, command line tools and Github.&lt;/p&gt;
+&lt;p&gt;Our final goal is to have two Github repositories: a source repository called &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt;, which contains the website&amp;rsquo;s unprocessed resources and a host repository called &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt; which hosts the website.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;2-create-a-website&#34;&gt;2. Create a Website&lt;/h2&gt;
+&lt;h3 id=&#34;21-prerequisites&#34;&gt;2.1 Prerequisites&lt;/h3&gt;
+&lt;p&gt;As mentioned before, you need certain prerequisites to follow this post. The requirements are listed below.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You must have a &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/a&gt; account.&lt;/li&gt;
+&lt;li&gt;You must have &lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/a&gt; installed.&lt;/li&gt;
+&lt;li&gt;You must have &lt;a href=&#34;https://go.dev/dl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Go&lt;/strong&gt;&lt;/a&gt; installed.&lt;/li&gt;
+&lt;li&gt;You must have basic &lt;a href=&#34;https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Command line&lt;/strong&gt;&lt;/a&gt; knowledge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;22-install-hugo&#34;&gt;2.2 Install Hugo&lt;/h3&gt;
+&lt;p&gt;Download and install the hugo from &lt;a href=&#34;https://github.com/gohugoio/hugo/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;gohugoio/hugo&lt;/strong&gt;&lt;/a&gt; into your computer.&lt;/p&gt;
+&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+    &lt;b&gt; Note: &lt;/b&gt; Install the latest extended-version of hugo.
+&lt;/div&gt;
+&lt;h3 id=&#34;23-download-a-theme&#34;&gt;2.3 Download A Theme&lt;/h3&gt;
+&lt;p&gt;Open the terminal and from your home directory, type the following commands.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/wowchemy/starter-hugo-academic.git username_website
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; username_website
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule update --init --recursive
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+    &lt;b&gt; Note: &lt;/b&gt; You must replace &#39;username&#39; with your GitHub username.
+&lt;/div&gt;
+&lt;h3 id=&#34;24-launch-the-website&#34;&gt;2.4 Launch The Website&lt;/h3&gt;
+&lt;p&gt;Make sure you are in the &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory. From the terminal, type the following command&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+    &lt;b&gt; Note: &lt;/b&gt; This will launch a server on your terminal which will locally host your website. Copy the URL displayed on the terminal and paste it into the browser of your choice. You must be able to see the website now.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;3-basic-customisation&#34;&gt;3. Basic Customisation&lt;/h2&gt;
+&lt;h3 id=&#34;31-open-files-in-text-editor&#34;&gt;3.1 Open Files In Text Editor&lt;/h3&gt;
+&lt;p&gt;To customise the website, we need a text editor. You can choose any of your favourite text editors to do the task. In case you are using &lt;a href=&#34;https://atom.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;atom&lt;/strong&gt;&lt;/a&gt;, you can open the files as follows:&lt;/p&gt;
+&lt;p&gt;Make sure you are in &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory. Now type&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;atom .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This must open all the files in the directory on the atom text editor window. Now, if you edit and save any file, the changes should reflect on your local browser window.&lt;/p&gt;
+&lt;h3 id=&#34;32-personal-details-customisation&#34;&gt;3.2 Personal Details Customisation&lt;/h3&gt;
+&lt;p&gt;Following are the essential files you need to modify to customise your website:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;config/_default/config.yaml&lt;/span&gt; : Edit this file to modify general website information.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;config/_default/params.yaml&lt;/span&gt; : Edit this file to customise your website.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;config/_default/menus.yaml&lt;/span&gt;: Edit this file to customise the menu bar.&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;content/authors/admin/_index.md&lt;/span&gt;: Edit your personal information here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;33-profile-picture-customisation&#34;&gt;3.3 Profile Picture Customisation&lt;/h3&gt;
+&lt;p&gt;The profile picture and the website icon can be modified as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;content/authors/admin/avatar.jpg&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;assets/media/icon.png&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Replace  &lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;avatar.jpg&lt;/span&gt; and &lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;icon.png&lt;/span&gt; with the pictures of your choice.&lt;/p&gt;
+&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+    &lt;b&gt; Note: &lt;/b&gt; Do not change the filenames. Just replace the files and retain the same filenames.
+&lt;/div&gt;
+&lt;h3 id=&#34;34-widgets-customisation&#34;&gt;3.4 Widgets Customisation&lt;/h3&gt;
+&lt;p&gt;To modify the widgets on your homepage, change the files in the &lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;content/home/&lt;/span&gt; folder. In case you want to delete a section, open the related file and set &lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt; active:false&lt;/span&gt;. More details about customisation can be found on &lt;a href=&#34;https://wowchemy.com/docs/getting-started/customization/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;wowchemy&lt;/strong&gt;&lt;/a&gt; website.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;4-modify-gitignore-file&#34;&gt;4. Modify .gitignore File&lt;/h2&gt;
+&lt;p&gt;In .gitignore file delete the line saying &lt;span style=&#34;color:SlateGray;background-color: #F0FFFF&#34;&gt;public/&lt;/span&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;5-delete-public-folder&#34;&gt;5. Delete public/ Folder&lt;/h2&gt;
+&lt;p&gt;Completely delete &lt;span style=&#34;color:SlateGray; background-color: #F0FFFF&#34;&gt;public&lt;/span&gt; folder if it exists.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;6-create-a-new-repository-span-stylecolorgraybackground-color-f0ffffusername_websitespan-on-github&#34;&gt;6. Create A New Repository &lt;span style=&#34;color:Gray;background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; On GitHub&lt;/h2&gt;
+&lt;p&gt;To create a new repo on GitHub, log in and go to the &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; home page. You can find the “New repository” option under the “+” sign next to your profile picture in the top right corner of the navbar. After clicking the button, GitHub will ask you to name your repo and provide a brief description.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Name the repo &lt;span style=&#34;color:Gray;background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt;.&lt;/li&gt;
+&lt;li&gt;Provide a brief description, for example, &amp;ldquo;Contents of my academic website&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Click on &lt;span style=&#34;color:Green&#34;&gt;Create repository&lt;/span&gt; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;7-modify-gitconfig-file&#34;&gt;7. Modify .git/config file&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Currently .git/config file looks like shown below&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;core&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;repositoryformatversion&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;filemode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;bare&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;logallrefupdates&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;ignorecase&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;precomposeunicode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;remote &lt;span class=&#34;s2&#34;&gt;&amp;#34;origin&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; https://github.com/sourcethemes/academic-kickstart.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;fetch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; +refs/heads/*:refs/remotes/origin/*
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;branch &lt;span class=&#34;s2&#34;&gt;&amp;#34;main&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;remote&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; origin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;merge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; refs/heads/main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Modify the url to look like this&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;core&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;repositoryformatversion&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;filemode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;bare&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;logallrefupdates&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;ignorecase&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;precomposeunicode&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;remote &lt;span class=&#34;s2&#34;&gt;&amp;#34;origin&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; git@github.com:username/username_website.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;fetch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; +refs/heads/*:refs/remotes/origin/*
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;branch &lt;span class=&#34;s2&#34;&gt;&amp;#34;main&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;remote&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; origin
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;merge&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; refs/heads/main
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;8-add-files-to-staging-area-and-create-a-commit&#34;&gt;8. Add Files To Staging Area And Create A Commit&lt;/h2&gt;
+&lt;p&gt;After you have completed customising the website, add all the files to the staging area with the following command. Make sure you are in &lt;span style=&#34;color:Gray; background-color: #F0FFFF &#34;&gt;username_website&lt;/span&gt; directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Once all the modified files are added to the staging area, leave a short commit message which summarises your changes.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;fully customised version of the website&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;9-point-your-directory-span-stylecolorgray-background-color-f0ffffusername_websitespan-to-your-newly-created--span-stylecolorgray-background-color-f0ffffusername_websitespan-repo-on-github&#34;&gt;9. Point Your Directory &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; To Your Newly Created  &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; Repo On Github&lt;/h2&gt;
+&lt;p&gt;From &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory in the terminal type&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push -u origin --all
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now, login to your account in Github and make sure that all the contents of your website are uploaded to &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; repository. This repository will hold all the contents of your website on Github. Now that we have a secure copy of all the contents, we can move on to create a new repository to host your website.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;10-create-a-new-repository-span-stylecolorgray-background-color-f0ffffusernamegithubiospan-on-github-to-host-your-website&#34;&gt;10. Create A New Repository &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt; On GitHub To Host Your Website&lt;/h2&gt;
+&lt;p&gt;Create a new repo on GitHub named &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt;. Log in and go to the &lt;a href=&#34;https://github.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; home page. You can find the “New repository” option under the “+” sign next to your profile picture in the top right corner of the navbar. After clicking the button, GitHub will ask you to name your repo and provide a brief description.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Name the repo &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt;. The &amp;lsquo;username&amp;rsquo; here must be same as your Github username.&lt;/li&gt;
+&lt;li&gt;Provide a brief description, for example, &amp;ldquo;My academic website&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Click on the Public option&lt;/li&gt;
+&lt;li&gt;Initialise the repository with a README file and a licence.&lt;/li&gt;
+&lt;li&gt;Now click on &lt;span style=&#34;color:Green&#34;&gt;Create repository&lt;/span&gt; button.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;div class=&#34;alert alert-block alert-danger&#34;&gt;
+&lt;b&gt;Note:&lt;/b&gt; Please make sure that these steps are strictly followed without any changes.
+&lt;/div&gt;
+&lt;h2 id=&#34;11-update-the-website-url&#34;&gt;11. Update The Website URL&lt;/h2&gt;
+&lt;p&gt;Update the website url in &lt;span style=&#34;color:tomato; background-color: LavenderBlush&#34;&gt;config/_default/config.yaml&lt;/span&gt; file. The base url must look like&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;baseURL: &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://username.github.io/&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# Website URL&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;12-clone--span-stylecolorgray-background-color-f0ffffusernamegithubiospan-to-public-directory&#34;&gt;12. Clone  &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt; To public Directory&lt;/h2&gt;
+&lt;p&gt;From the terminal, run the following commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; username_website
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/username/username.github.io.git public
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+&lt;b&gt;Note:&lt;/b&gt; If you get: warning: You appear to have cloned an empty repository. – go back to the Github repo and create a README and licence file.
+&lt;/div&gt;
+&lt;h2 id=&#34;13-make-a-test-file-to-see-if-the-website-works&#34;&gt;13. Make A Test File To See If The Website Works&lt;/h2&gt;
+&lt;p&gt;Let us make a text file index.html to check if the website works as intended. From the &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory, type the following commands&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;touch index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;lt;h1&amp;gt;Hello World - v0&amp;lt;/h1&amp;gt;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; index.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now push this change to the Github repository corresponding to the website. That is the repository named &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io&lt;/span&gt; using the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;test webpage&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;If everything goes well, towards the end of the terminal output, you must be able to see the following lines.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;To github.com:username/username.github.io.git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-block alert-success&#34;&gt;
+&lt;b&gt;Note:&lt;/b&gt;  If you see the above line in the terminal window, skip the next step and move on to step 15.
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Else, you might encounter the following error&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;remote: Permission to username/username.github.io.git denied to username.
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fatal: unable to access &lt;span class=&#34;s1&#34;&gt;&amp;#39;https://github.com/username/username.github.io.git/&amp;#39;&lt;/span&gt;: The requested URL returned error: &lt;span class=&#34;m&#34;&gt;403&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-block alert-danger&#34;&gt;
+&lt;b&gt;Note:&lt;/b&gt; In case you encounter the above-mentioned error, go to the next step 14.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;14-clone-the-repository-span-stylecolorgray-background-color-f0ffffusernamegithubiogitspan-outside-the-span-stylecolorgray-background-color-f0ffffusername_websitespan-directory&#34;&gt;14. Clone The Repository &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io.git&lt;/span&gt; Outside The &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; Directory&lt;/h2&gt;
+&lt;p&gt;Make sure you are outside &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory. Then type the following commands to clone &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io.git&lt;/span&gt; repository into your computer.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone git@github.com:username/username.github.io.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; username.github.io
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;lt;h1&amp;gt;Hello World - v1&amp;lt;/h1&amp;gt;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;testing if the website works&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After successfully completing the above procedure we move this repository into the &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt;. Run the following commands from outside the &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf username_website/public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;mv username.github.io username_website/public
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now type the following commands,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; username_website/public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;&amp;lt;h1&amp;gt;Hello World - v2&amp;lt;/h1&amp;gt;&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; index.html
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -am &lt;span class=&#34;s2&#34;&gt;&amp;#34;testing if the website works from within hugo project&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Wait for a few minutes and go to the website &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt;. You must be able to see the contents of the newly published index.html page.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;15-configure-public-as-a-submodule&#34;&gt;15. Configure public As A Submodule&lt;/h2&gt;
+&lt;p&gt;Add &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username.github.io.git&lt;/span&gt; as a submodule using the following commands. Make sure you are in &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add -b master https://github.com/username/username.github.io.git public
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now open .gitmodules file and make sure the contents of the file look like shown below.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;submodule &lt;span class=&#34;s2&#34;&gt;&amp;#34;public&amp;#34;&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;url&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; https://github.com/username/username.github.io.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;nv&#34;&gt;branch&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; master
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;16-construct-and-publish-your-website&#34;&gt;16. Construct And Publish Your Website&lt;/h2&gt;
+&lt;p&gt;Now construct your website using the following command. From &lt;span style=&#34;color:Gray; background-color: #F0FFFF&#34;&gt;username_website&lt;/span&gt; directory run the following command.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The above command will construct the html, css and js files necessary to show your website online in the public folder. Now run the following commands to push your website online&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; public
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git commit -m &lt;span class=&#34;s2&#34;&gt;&amp;#34;first version of the website is now online&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git push
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;alert alert-block alert-info&#34;&gt;
+&lt;b&gt;Note:&lt;/b&gt; Step 16 must be followed every time you make changes to the website.
+&lt;/div&gt;
+&lt;p&gt;Go back to  &lt;strong&gt;&lt;a href=&#34;https://username.github.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://username.github.io&lt;/a&gt;&lt;/strong&gt; and check out your newly published website!&lt;/p&gt;
+&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Unpinning Spiral Waves Using Circularly Polarised Electric Fields</title>
       <link>https://ShreyasPunacha.github.io/project/unpinning-using-cpef/</link>
       <pubDate>Wed, 27 Jul 2022 11:44:04 +0530</pubDate>

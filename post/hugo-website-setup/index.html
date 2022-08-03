@@ -1,0 +1,1490 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.5.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Shreyas Punacha" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Internet and social media are powerful tools to build your presence as an academic scholar, network with peers and promote your research. Besides social media, an essential online presence that one can have is a personal website. This post shows how to setup a personal website using the academic-theme by Hugo." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ShreyasPunacha.github.io/post/hugo-website-setup/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.95d53890c5839471cef2375b6c449b9f.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-86D93NC5Y8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-86D93NC5Y8', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://ShreyasPunacha.github.io/post/hugo-website-setup/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Shreyas Punacha" />
+  <meta property="og:url" content="https://ShreyasPunacha.github.io/post/hugo-website-setup/" />
+  <meta property="og:title" content="How To Build An Academic Website Using Hugo And Github Pages | Shreyas Punacha" />
+  <meta property="og:description" content="Internet and social media are powerful tools to build your presence as an academic scholar, network with peers and promote your research. Besides social media, an essential online presence that one can have is a personal website. This post shows how to setup a personal website using the academic-theme by Hugo." /><meta property="og:image" content="https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-08-03T09:13:17&#43;05:30"
+      />
+    
+    <meta property="article:modified_time" content="2022-08-03T09:13:17&#43;05:30">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://ShreyasPunacha.github.io/post/hugo-website-setup/"
+  },
+  "headline": "How To Build An Academic Website Using Hugo And Github Pages",
+  
+  "datePublished": "2022-08-03T09:13:17+05:30",
+  "dateModified": "2022-08-03T09:13:17+05:30",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Shreyas Punacha"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Shreyas Punacha",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Internet and social media are powerful tools to build your presence as an academic scholar, network with peers and promote your research. Besides social media, an essential online presence that one can have is a personal website. This post shows how to setup a personal website using the academic-theme by Hugo."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>How To Build An Academic Website Using Hugo And Github Pages | Shreyas Punacha</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="4c16dc45372d39d31cc2d5c56fb8cbf7" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.2ed908358299dd7ab553faae685c746c.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Shreyas Punacha</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Shreyas Punacha</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>How To Build An Academic Website Using Hugo And Github Pages</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 3, 2022
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    8 min read
+  </span>
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="1-introduction">1. Introduction</h2>
+<p>Internet and social media are powerful tools to build your presence as an academic scholar, network with peers and promote your research. Besides social media, an essential online presence that one can have is a personal website.</p>
+<p>This post describes how to set up a personal academic website using the static website generator <a href="https://gohugo.io/" target="_blank" rel="noopener"><strong>Hugo</strong></a> and publish it using <a href="https://pages.github.com/" target="_blank" rel="noopener"><strong>GitHub Pages</strong></a>. The post is targeted toward students, scientists and faculty members who have a basic knowledge about how to use Git, command line tools and Github.</p>
+<p>Our final goal is to have two Github repositories: a source repository called <span style="color:DimGray;background-color: #F0FFFF">username_website</span>, which contains the website&rsquo;s unprocessed resources and a host repository called <span style="color:DimGray;background-color: #F0FFFF">username.github.io</span> which hosts the website.</p>
+<hr>
+<h2 id="2-create-a-website">2. Create a Website</h2>
+<h3 id="21-prerequisites">2.1 Prerequisites</h3>
+<p>As mentioned before, you need certain prerequisites to follow this post. The requirements are listed below.</p>
+<ul>
+<li>You must have a <a href="https://github.com" target="_blank" rel="noopener"><strong>Github</strong></a> account.</li>
+<li>You must have <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank" rel="noopener"><strong>Git</strong></a> installed.</li>
+<li>You must have <a href="https://go.dev/dl/" target="_blank" rel="noopener"><strong>Go</strong></a> installed.</li>
+<li>You must have basic <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line" target="_blank" rel="noopener"><strong>Command line</strong></a> knowledge.</li>
+</ul>
+<h3 id="22-install-hugo">2.2 Install Hugo</h3>
+<p>Download and install the hugo from <a href="https://github.com/gohugoio/hugo/releases" target="_blank" rel="noopener"><strong>gohugoio/hugo</strong></a> into your computer.</p>
+<div class="alert alert-block alert-info">
+    <b> Note: </b> Install the latest extended-version of hugo.
+</div>
+<h3 id="23-download-a-theme">2.3 Download A Theme</h3>
+<p>Open the terminal and from your home directory, type the following commands.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git clone https://github.com/wowchemy/starter-hugo-academic.git username_website
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> username_website
+</span></span><span class="line"><span class="cl">git submodule update --init --recursive
+</span></span></code></pre></div><div class="alert alert-block alert-info">
+    <b> Note: </b> You must replace 'username' with your GitHub username.
+</div>
+<h3 id="24-launch-the-website">2.4 Launch The Website</h3>
+<p>Make sure you are in the <span style="color:DimGray;background-color: #F0FFFF">username_website</span> directory. From the terminal, type the following command</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo server
+</span></span></code></pre></div><div class="alert alert-block alert-info">
+    <b> Note: </b> This will launch a server on your terminal which will locally host your website. Copy the URL displayed on the terminal and paste it into the browser of your choice. You must be able to see the website now.
+</div>
+<hr>
+<h2 id="3-basic-customisation">3. Basic Customisation</h2>
+<h3 id="31-open-files-in-text-editor">3.1 Open Files In Text Editor</h3>
+<p>To customise the website, we need a text editor. You can choose any of your favourite text editors to do the task. In case you are using <a href="https://atom.io" target="_blank" rel="noopener"><strong>atom</strong></a>, you can open the files as follows:</p>
+<p>Make sure you are in <span style="color:DimGray;background-color: #F0FFFF">username_website</span> directory. Now type</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">atom .
+</span></span></code></pre></div><p>This must open all the files in the directory on the atom text editor window. Now, if you edit and save any file, the changes should reflect on your local browser window.</p>
+<h3 id="32-personal-details-customisation">3.2 Personal Details Customisation</h3>
+<p>Following are the essential files you need to modify to customise your website:</p>
+<ul>
+<li><span style="color:tomato; background-color: LavenderBlush">config/_default/config.yaml</span> : Edit this file to modify general website information.</li>
+<li><span style="color:tomato; background-color: LavenderBlush">config/_default/params.yaml</span> : Edit this file to customise your website.</li>
+<li><span style="color:tomato; background-color: LavenderBlush">config/_default/menus.yaml</span>: Edit this file to customise the menu bar.</li>
+<li><span style="color:tomato; background-color: LavenderBlush">content/authors/admin/_index.md</span>: Edit your personal information here.</li>
+</ul>
+<h3 id="33-profile-picture-customisation">3.3 Profile Picture Customisation</h3>
+<p>The profile picture and the website icon can be modified as follows:</p>
+<ul>
+<li><span style="color:tomato; background-color: LavenderBlush">content/authors/admin/avatar.jpg</span></li>
+<li><span style="color:tomato; background-color: LavenderBlush">assets/media/icon.png</span></li>
+</ul>
+<p>Replace  <span style="color:tomato; background-color: LavenderBlush">avatar.jpg</span> and <span style="color:tomato; background-color: LavenderBlush">icon.png</span> with the pictures of your choice.</p>
+<div class="alert alert-block alert-info">
+    <b> Note: </b> Do not change the filenames. Just replace the files and retain the same filenames.
+</div>
+<h3 id="34-widgets-customisation">3.4 Widgets Customisation</h3>
+<p>To modify the widgets on your homepage, change the files in the <span style="color:tomato; background-color: LavenderBlush">content/home/</span> folder. In case you want to delete a section, open the related file and set <span style="color:tomato; background-color: LavenderBlush"> active:false</span>. More details about customisation can be found on <a href="https://wowchemy.com/docs/getting-started/customization/" target="_blank" rel="noopener"><strong>wowchemy</strong></a> website.</p>
+<hr>
+<h2 id="4-modify-gitignore-file">4. Modify .gitignore File</h2>
+<p>In .gitignore file delete the line saying <span style="color:SlateGray;background-color: #F0FFFF">public/</span>.</p>
+<hr>
+<h2 id="5-delete-public-folder">5. Delete public/ Folder</h2>
+<p>Completely delete <span style="color:SlateGray; background-color: #F0FFFF">public</span> folder if it exists.</p>
+<hr>
+<h2 id="6-create-a-new-repository-span-stylecolorgraybackground-color-f0ffffusername_websitespan-on-github">6. Create A New Repository <span style="color:Gray;background-color: #F0FFFF">username_website</span> On GitHub</h2>
+<p>To create a new repo on GitHub, log in and go to the <a href="https://github.com" target="_blank" rel="noopener"><strong>GitHub</strong></a> home page. You can find the “New repository” option under the “+” sign next to your profile picture in the top right corner of the navbar. After clicking the button, GitHub will ask you to name your repo and provide a brief description.</p>
+<ul>
+<li>Name the repo <span style="color:Gray;background-color: #F0FFFF">username_website</span>.</li>
+<li>Provide a brief description, for example, &ldquo;Contents of my academic website&rdquo;.</li>
+<li>Click on <span style="color:Green">Create repository</span> button.</li>
+</ul>
+<hr>
+<h2 id="7-modify-gitconfig-file">7. Modify .git/config file</h2>
+<p><strong>Currently .git/config file looks like shown below</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>core<span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">repositoryformatversion</span> <span class="o">=</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">filemode</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">bare</span> <span class="o">=</span> <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">logallrefupdates</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">ignorecase</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">precomposeunicode</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>remote <span class="s2">&#34;origin&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">url</span> <span class="o">=</span> https://github.com/sourcethemes/academic-kickstart.git
+</span></span><span class="line"><span class="cl">	<span class="nv">fetch</span> <span class="o">=</span> +refs/heads/*:refs/remotes/origin/*
+</span></span><span class="line"><span class="cl"><span class="o">[</span>branch <span class="s2">&#34;main&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">remote</span> <span class="o">=</span> origin
+</span></span><span class="line"><span class="cl">	<span class="nv">merge</span> <span class="o">=</span> refs/heads/main
+</span></span></code></pre></div><p><strong>Modify the url to look like this</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>core<span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">repositoryformatversion</span> <span class="o">=</span> <span class="m">0</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">filemode</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">bare</span> <span class="o">=</span> <span class="nb">false</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">logallrefupdates</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">ignorecase</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">precomposeunicode</span> <span class="o">=</span> <span class="nb">true</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>remote <span class="s2">&#34;origin&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">url</span> <span class="o">=</span> git@github.com:username/username_website.git
+</span></span><span class="line"><span class="cl">	<span class="nv">fetch</span> <span class="o">=</span> +refs/heads/*:refs/remotes/origin/*
+</span></span><span class="line"><span class="cl"><span class="o">[</span>branch <span class="s2">&#34;main&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">remote</span> <span class="o">=</span> origin
+</span></span><span class="line"><span class="cl">	<span class="nv">merge</span> <span class="o">=</span> refs/heads/main
+</span></span></code></pre></div><hr>
+<h2 id="8-add-files-to-staging-area-and-create-a-commit">8. Add Files To Staging Area And Create A Commit</h2>
+<p>After you have completed customising the website, add all the files to the staging area with the following command. Make sure you are in <span style="color:Gray; background-color: #F0FFFF ">username_website</span> directory.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span></code></pre></div><p>Once all the modified files are added to the staging area, leave a short commit message which summarises your changes.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git commit -m <span class="s2">&#34;fully customised version of the website&#34;</span>
+</span></span></code></pre></div><hr>
+<h2 id="9-point-your-directory-span-stylecolorgray-background-color-f0ffffusername_websitespan-to-your-newly-created--span-stylecolorgray-background-color-f0ffffusername_websitespan-repo-on-github">9. Point Your Directory <span style="color:Gray; background-color: #F0FFFF">username_website</span> To Your Newly Created  <span style="color:Gray; background-color: #F0FFFF">username_website</span> Repo On Github</h2>
+<p>From <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory in the terminal type</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git push -u origin --all
+</span></span></code></pre></div><p>Now, login to your account in Github and make sure that all the contents of your website are uploaded to <span style="color:Gray; background-color: #F0FFFF">username_website</span> repository. This repository will hold all the contents of your website on Github. Now that we have a secure copy of all the contents, we can move on to create a new repository to host your website.</p>
+<hr>
+<h2 id="10-create-a-new-repository-span-stylecolorgray-background-color-f0ffffusernamegithubiospan-on-github-to-host-your-website">10. Create A New Repository <span style="color:Gray; background-color: #F0FFFF">username.github.io</span> On GitHub To Host Your Website</h2>
+<p>Create a new repo on GitHub named <span style="color:Gray; background-color: #F0FFFF">username.github.io</span>. Log in and go to the <a href="https://github.com" target="_blank" rel="noopener"><strong>GitHub</strong></a> home page. You can find the “New repository” option under the “+” sign next to your profile picture in the top right corner of the navbar. After clicking the button, GitHub will ask you to name your repo and provide a brief description.</p>
+<ul>
+<li>Name the repo <span style="color:Gray; background-color: #F0FFFF">username.github.io</span>. The &lsquo;username&rsquo; here must be same as your Github username.</li>
+<li>Provide a brief description, for example, &ldquo;My academic website&rdquo;.</li>
+<li>Click on the Public option</li>
+<li>Initialise the repository with a README file and a licence.</li>
+<li>Now click on <span style="color:Green">Create repository</span> button.</li>
+</ul>
+<hr>
+<div class="alert alert-block alert-danger">
+<b>Note:</b> Please make sure that these steps are strictly followed without any changes.
+</div>
+<h2 id="11-update-the-website-url">11. Update The Website URL</h2>
+<p>Update the website url in <span style="color:tomato; background-color: LavenderBlush">config/_default/config.yaml</span> file. The base url must look like</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">baseURL: <span class="s1">&#39;https://username.github.io/&#39;</span> <span class="c1"># Website URL</span>
+</span></span></code></pre></div><hr>
+<h2 id="12-clone--span-stylecolorgray-background-color-f0ffffusernamegithubiospan-to-public-directory">12. Clone  <span style="color:Gray; background-color: #F0FFFF">username.github.io</span> To public Directory</h2>
+<p>From the terminal, run the following commands:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> username_website
+</span></span><span class="line"><span class="cl">git clone https://github.com/username/username.github.io.git public
+</span></span></code></pre></div><hr>
+<div class="alert alert-block alert-info">
+<b>Note:</b> If you get: warning: You appear to have cloned an empty repository. – go back to the Github repo and create a README and licence file.
+</div>
+<h2 id="13-make-a-test-file-to-see-if-the-website-works">13. Make A Test File To See If The Website Works</h2>
+<p>Let us make a text file index.html to check if the website works as intended. From the <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory, type the following commands</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">touch index.html
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;&lt;h1&gt;Hello World - v0&lt;/h1&gt;&#39;</span> &gt;&gt; index.html
+</span></span></code></pre></div><p>Now push this change to the Github repository corresponding to the website. That is the repository named <span style="color:Gray; background-color: #F0FFFF">username.github.io</span> using the following command.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;test webpage&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p><strong>If everything goes well, towards the end of the terminal output, you must be able to see the following lines.</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">To github.com:username/username.github.io.git
+</span></span></code></pre></div><div class="alert alert-block alert-success">
+<b>Note:</b>  If you see the above line in the terminal window, skip the next step and move on to step 15.
+</div>
+<p><strong>Else, you might encounter the following error</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">remote: Permission to username/username.github.io.git denied to username.
+</span></span><span class="line"><span class="cl">fatal: unable to access <span class="s1">&#39;https://github.com/username/username.github.io.git/&#39;</span>: The requested URL returned error: <span class="m">403</span>
+</span></span></code></pre></div><div class="alert alert-block alert-danger">
+<b>Note:</b> In case you encounter the above-mentioned error, go to the next step 14.
+</div>
+<hr>
+<h2 id="14-clone-the-repository-span-stylecolorgray-background-color-f0ffffusernamegithubiogitspan-outside-the-span-stylecolorgray-background-color-f0ffffusername_websitespan-directory">14. Clone The Repository <span style="color:Gray; background-color: #F0FFFF">username.github.io.git</span> Outside The <span style="color:Gray; background-color: #F0FFFF">username_website</span> Directory</h2>
+<p>Make sure you are outside <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory. Then type the following commands to clone <span style="color:Gray; background-color: #F0FFFF">username.github.io.git</span> repository into your computer.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git clone git@github.com:username/username.github.io.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> username.github.io
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;&lt;h1&gt;Hello World - v1&lt;/h1&gt;&#39;</span> &gt;&gt; index.html
+</span></span><span class="line"><span class="cl">git add index.html
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;testing if the website works&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p>After successfully completing the above procedure we move this repository into the <span style="color:Gray; background-color: #F0FFFF">username_website</span>. Run the following commands from outside the <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">rm -rf username_website/public
+</span></span><span class="line"><span class="cl">mv username.github.io username_website/public
+</span></span></code></pre></div><p>Now type the following commands,</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> username_website/public
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s1">&#39;&lt;h1&gt;Hello World - v2&lt;/h1&gt;&#39;</span> &gt;&gt; index.html
+</span></span><span class="line"><span class="cl">git commit -am <span class="s2">&#34;testing if the website works from within hugo project&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><p>Wait for a few minutes and go to the website <strong><a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></strong>. You must be able to see the contents of the newly published index.html page.</p>
+<hr>
+<h2 id="15-configure-public-as-a-submodule">15. Configure public As A Submodule</h2>
+<p>Add <span style="color:Gray; background-color: #F0FFFF">username.github.io.git</span> as a submodule using the following commands. Make sure you are in <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git submodule add -b master https://github.com/username/username.github.io.git public
+</span></span></code></pre></div><p>Now open .gitmodules file and make sure the contents of the file look like shown below.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">[</span>submodule <span class="s2">&#34;public&#34;</span><span class="o">]</span>
+</span></span><span class="line"><span class="cl">	<span class="nv">path</span> <span class="o">=</span> public
+</span></span><span class="line"><span class="cl">	<span class="nv">url</span> <span class="o">=</span> https://github.com/username/username.github.io.git
+</span></span><span class="line"><span class="cl">	<span class="nv">branch</span> <span class="o">=</span> master
+</span></span></code></pre></div><hr>
+<h2 id="16-construct-and-publish-your-website">16. Construct And Publish Your Website</h2>
+<p>Now construct your website using the following command. From <span style="color:Gray; background-color: #F0FFFF">username_website</span> directory run the following command.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">hugo
+</span></span></code></pre></div><p>The above command will construct the html, css and js files necessary to show your website online in the public folder. Now run the following commands to push your website online</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;first version of the website is now online&#34;</span>
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><div class="alert alert-block alert-info">
+<b>Note:</b> Step 16 must be followed every time you make changes to the website.
+</div>
+<p>Go back to  <strong><a href="https://username.github.io" target="_blank" rel="noopener">https://username.github.io</a></strong> and check out your newly published website!</p>
+<hr>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=How%20To%20Build%20An%20Academic%20Website%20Using%20Hugo%20And%20Github%20Pages&amp;body=https://ShreyasPunacha.github.io/post/hugo-website-setup/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://ShreyasPunacha.github.io/post/hugo-website-setup/&amp;text=How%20To%20Build%20An%20Academic%20Website%20Using%20Hugo%20And%20Github%20Pages" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://ShreyasPunacha.github.io/post/hugo-website-setup/&amp;title=How%20To%20Build%20An%20Academic%20Website%20Using%20Hugo%20And%20Github%20Pages" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://ShreyasPunacha.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huf1832c42c7cb9ea9e0c4d692ab83ac03_1886053_270x270_fill_q75_lanczos_center.jpg" alt="Shreyas Punacha"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://ShreyasPunacha.github.io/">Shreyas Punacha</a></h5>
+      <h6 class="card-subtitle">Researcher</h6>
+      <p class="card-text">My research fields are Physics and Computational Biology. My research interests include cardiac arrhythmias, low-voltage defibrillation, excitable media, pattern formation and blackhole thermodynamics.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=BR_yUgYAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0002-4523-9627" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/shreyaspunacha" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Shreyas-Punacha" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © Theme edited by Shreyas Punacha in 2022 . This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.46271ef31da3f018e9cd1b59300aa265.js"></script>
+
+    
+    
+    
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.c251366b4128fd5e6b046d4c97a62a51.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.3239609ca7abe02ed52d76ffcb22af1d.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+
+
+
+
+
+
+</body>
+</html>

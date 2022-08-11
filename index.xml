@@ -33,6 +33,28 @@
     </item>
     
     <item>
+      <title>How To Fix Hugo Website Error - from config failed to resolve output format headers from site config</title>
+      <link>https://ShreyasPunacha.github.io/post/hugo_website_error/</link>
+      <pubDate>Thu, 11 Aug 2022 20:53:53 +0530</pubDate>
+      <guid>https://ShreyasPunacha.github.io/post/hugo_website_error/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Sometimes you might encounter the following error on typing &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;hugo server&lt;/span&gt; from your local website directory.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Error: from config: failed to resolve output format &lt;span class=&#34;s2&#34;&gt;&amp;#34;headers&amp;#34;&lt;/span&gt; from site config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To resolve the error, head over to &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;config/_default/config.yaml&lt;/span&gt; and temporily rewrite the following line as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;outputs:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  home: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;RSS, JSON, WebAppManifest&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Open terminal and from the home directory of the website type the following commands:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo mod clean
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo mod get -u ./...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo mod tidy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When the update is complete head over to &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;config/_default/config.yaml&lt;/span&gt; and restore the items that were rewritten.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;outputs:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  home: &lt;span class=&#34;o&#34;&gt;[&lt;/span&gt;HTML, RSS, JSON, WebAppManifest, headers, redirects&lt;span class=&#34;o&#34;&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now type &lt;span style=&#34;color:DimGray;background-color: #F0FFFF&#34;&gt;hugo server&lt;/span&gt; from the website home directory and it should successfully start a server.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    <item>
       <title>How To Build An Academic Website Using Hugo And Github Pages</title>
       <link>https://ShreyasPunacha.github.io/post/hugo-website-setup/</link>
       <pubDate>Wed, 03 Aug 2022 09:13:17 +0530</pubDate>

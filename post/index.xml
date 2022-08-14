@@ -5,12 +5,56 @@
     <link>https://ShreyasPunacha.github.io/post/</link>
       <atom:link href="https://ShreyasPunacha.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 11 Aug 2022 20:53:53 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Aug 2022 20:01:31 +0530</lastBuildDate>
     <image>
       <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://ShreyasPunacha.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Solving Two Dimensional Heat Equation Using Finite Difference Method</title>
+      <link>https://ShreyasPunacha.github.io/post/heat_equation/</link>
+      <pubDate>Fri, 12 Aug 2022 20:01:31 +0530</pubDate>
+      <guid>https://ShreyasPunacha.github.io/post/heat_equation/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Suppose we have a square-shaped iron plate and know how the heat is distributed across the plate at a certain point in time. What we are curious about is the following question:&lt;/p&gt;
+&lt;p&gt;How will the heat distribution change over time?&lt;/p&gt;
+&lt;p&gt;We know that the heat tends to flow from the warmer region to the colder region. Therefore, we are trying to find an equation that describes this process. The phenomenon of heat flow can be modelled by a partial differential equation called the heat equation. The application of this equation is quite diverse. Both engineers and physicists use it to describe processes like heat flow, molecular diffusion, Brownian motion Etc.&lt;/p&gt;
+&lt;p&gt;Mathematically, the phenomenon of heat flow can be modelled using the following equation.&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\partial{u}}{\partial{t}} = D  \Bigg(\frac{\partial^2{u}}{\partial{x^{2}}} + \frac{\partial^2{u}}{\partial{y^{2}}}\Bigg)
+$$&lt;/p&gt;
+&lt;p&gt;Where D is a constant called diffusion coefficient, characteristic of the material through which the heat flows and $u(x,y,t)$, is the unknown temperature function to be solved.&lt;/p&gt;
+&lt;p&gt;We need to know the initial and boundary conditions to obtain the unique solution of the heat equation or to apply any numerical method. The diffusion equation needs one initial condition at $t=0$; i.e $u(x,y,0) = I(x,y)$, where $I(x,y)$ is a given function. Besides the initial condition, boundary conditions are required at each point on the boundary.&lt;/p&gt;
+&lt;h2 id=&#34;finite-difference-explicit-method&#34;&gt;Finite Difference Explicit Method&lt;/h2&gt;
+&lt;p&gt;In this post, we will solve the heat equation numerically using the finite difference explicit method. Explicit means the solution at a given time step depends only on the previous time step, which is in contrast to the implicit method, where the solution also depends on the subsequent time step. The finite difference method provides an approximate numerical solution to the problem by discretizing the domain into grids. The temperature $u(x,y,t)$ is sought on each node of the grid.&lt;/p&gt;
+&lt;p&gt;Suppose we seek the solution of $u(x,y,t)$ for a time interval $0 &amp;lt; t &amp;lt; T$ in a 2D domain having dimensions $[0,Lx]×[0,Ly]$, where $L_{x}$ and $L_{y}$ are the length of the domain along $x$ and $y$ directions. As a first step, we generate a mesh grid with discretization steps $dx$ and $dy$ in two spatial directions and $dt$ in time as follows;&lt;/p&gt;
+&lt;p&gt;$0 = x_{0} &amp;lt; x_{1} ··· &amp;lt; x_{n_{x}} = L_{x}$ &lt;br&gt;
+$0 = y_{0} &amp;lt; y_{1} ··· &amp;lt; y_{n_{y}} = L_{y}$.&lt;/p&gt;
+&lt;p&gt;The temporal domain $[0, T ]$ is discretized as,&lt;/p&gt;
+&lt;p&gt;$0 = t_{0} &amp;lt; t_{1} ··· &amp;lt; t_{n_{t}} = T$.&lt;/p&gt;
+&lt;p&gt;The solution $u(x,y,t)$ is known only on the grid points $(x_{i},y_{j})$ with $i = 0,&amp;hellip;,n_{x},$
+and $j = 0,&amp;hellip;,n_{y}$. We approximate the continuous function $u(x,y,t)$ by a discrete function $u^{n}_{i,j}$ on the grid. On the mesh, the discretized heat equation can be written as,&lt;/p&gt;
+&lt;p&gt;$$
+\frac{\partial{}}{\partial{t}} u(x_{i},y_{j},t_{n}) = D  \Bigg(\frac{\partial^2{}}{\partial{x^{2}}} + \frac{\partial^2{}}{\partial{y^{2}}}\Bigg) u(x_{i},y_{j},t_{n})
+$$&lt;/p&gt;
+&lt;p&gt;The next step is to replace the derivatives with their finite difference approximations. It is done using the forward difference method in time and the central difference method in space:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{ u_{i,j}^{n+1} - u_{i,j}^{n} }{dt} = D
+\Bigg( \frac{u_{i+1,j}^{n} -2 u_{i,j}^{n} + u_{i-1,j}^{n}}{dx^{2}} + \frac{u_{i,j+1}^{n} - 2 u_{i,j}^{n} + u^{n}_{i,j-1}}{dy^{2}}  \Bigg)
+$$&lt;/p&gt;
+&lt;p&gt;Now we have converted the partial differential equations into algebraic equations, which makes them easy to solve. Solving for the unknown $u^{n+1}_{i, j}$:&lt;/p&gt;
+&lt;p&gt;$$
+u_{i,j}^{n+1} = u_{i,j}^{n} + \frac{D dt}{dx^{2}}  \bigl( u_{i+1,j}^{n} - 2 u_{i,j}^{n} + u_{i-1,j}^{n} \bigl)  + \frac{D dt}{dy^{2}} \bigl( u_{i,j+1}^{n} - 2 u_{i,j}^{n} + u^{n}_{i,j-1} \bigl)
+$$&lt;/p&gt;
+&lt;h2 id=&#34;stability&#34;&gt;Stability&lt;/h2&gt;
+&lt;p&gt;The finite difference explicit method is conditionally stable. We can show with &lt;a href=&#34;https://ocw.mit.edu/courses/18-336-numerical-methods-for-partial-differential-equations-spring-2009/c7c12accea163007923288875bb42604_MIT18_336S09_lec14.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Von Neumann Stability Analysis&lt;/strong&gt;&lt;/a&gt; that we need the discretized time step $dt$ to satisfy the following condition.&lt;/p&gt;
+&lt;p&gt;$$dt &amp;lt; \frac{1}{2 D} \frac{(dx  dy)^2}{(dx)^2 +(dy)^2}$$&lt;/p&gt;
+&lt;h1 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h1&gt;
+&lt;p&gt;The heat equation is of fundamental importance across scientific fields. The more general version of the heat equation, the diffusion equation, is used extensively in physical and biological sciences. In physics and statistics, the heat equation is related to the study of Brownian motion via the Fokker-Planck equation. In this post, we saw how the heat equation could be discretized into a set of algebraic equations on a mesh grid. In the next post, we solve these algebraic equations using the Python programming language.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How To Fix Hugo Website Error - from config failed to resolve output format headers from site config</title>

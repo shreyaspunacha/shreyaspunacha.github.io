@@ -33,22 +33,6 @@
     </item>
     
     <item>
-      <title>Heat_python_1D_implicit</title>
-      <link>https://ShreyasPunacha.github.io/post/heat_python_1d_implicit/</link>
-      <pubDate>Sun, 21 Aug 2022 14:08:21 +0530</pubDate>
-      <guid>https://ShreyasPunacha.github.io/post/heat_python_1d_implicit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Heat_python_serial</title>
-      <link>https://ShreyasPunacha.github.io/post/heat_python_serial/</link>
-      <pubDate>Wed, 17 Aug 2022 18:03:29 +0530</pubDate>
-      <guid>https://ShreyasPunacha.github.io/post/heat_python_serial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Solving Two Dimensional Heat Equation Using Finite Difference Method</title>
       <link>https://ShreyasPunacha.github.io/post/heat_equation/</link>
       <pubDate>Fri, 12 Aug 2022 20:01:31 +0530</pubDate>

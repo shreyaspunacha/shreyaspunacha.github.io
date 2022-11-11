@@ -5,12 +5,28 @@
     <link>https://ShreyasPunacha.github.io/post/</link>
       <atom:link href="https://ShreyasPunacha.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Aug 2022 20:01:31 +0530</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 21 Aug 2022 14:08:21 +0530</lastBuildDate>
     <image>
       <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://ShreyasPunacha.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Heat_python_1D_implicit</title>
+      <link>https://ShreyasPunacha.github.io/post/heat_python_1d_implicit/</link>
+      <pubDate>Sun, 21 Aug 2022 14:08:21 +0530</pubDate>
+      <guid>https://ShreyasPunacha.github.io/post/heat_python_1d_implicit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heat_python_serial</title>
+      <link>https://ShreyasPunacha.github.io/post/heat_python_serial/</link>
+      <pubDate>Wed, 17 Aug 2022 18:03:29 +0530</pubDate>
+      <guid>https://ShreyasPunacha.github.io/post/heat_python_serial/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Solving Two Dimensional Heat Equation Using Finite Difference Method</title>

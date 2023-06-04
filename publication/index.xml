@@ -5,12 +5,36 @@
     <link>https://ShreyasPunacha.github.io/publication/</link>
       <atom:link href="https://ShreyasPunacha.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ShreyasPunacha.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Theory and experiments of spiral unpinning in the Belousov-Zhabotinsky reaction using a circularly polarized electric field</title>
+      <link>https://ShreyasPunacha.github.io/publication/sv-2023-theory/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/sv-2023-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamics of Chemical Excitation Waves Subjected to Subthreshold Electric Field in a Mathematical Model of the Belousov-Zhabotinsky Reaction</title>
+      <link>https://ShreyasPunacha.github.io/publication/sebastian-2022-dynamics/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/sebastian-2022-dynamics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mechanism of Spiral Wave Unpinning in the Belousov--Zhabotinsky Reaction with a DC Electric Field</title>
+      <link>https://ShreyasPunacha.github.io/publication/amrutha-2022-mechanism/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/amrutha-2022-mechanism/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Dynamics and kinetics of phase transition for regular AdS black holes in general relativity coupled to non-linear electrodynamics</title>

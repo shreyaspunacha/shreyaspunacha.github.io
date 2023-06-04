@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 | Shreyas Punacha</title>
+    <link>https://ShreyasPunacha.github.io/publication-type/6/</link>
+      <atom:link href="https://ShreyasPunacha.github.io/publication-type/6/index.xml" rel="self" type="application/rss+xml" />
+    <description>6</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
+      <title>6</title>
+      <link>https://ShreyasPunacha.github.io/publication-type/6/</link>
+    </image>
+    
+    <item>
+      <title>Dynamics of Chemical Excitation Waves Subjected to Subthreshold Electric Field in a Mathematical Model of the Belousov-Zhabotinsky Reaction</title>
+      <link>https://ShreyasPunacha.github.io/publication/sebastian-2022-dynamics/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/sebastian-2022-dynamics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

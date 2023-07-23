@@ -5,12 +5,28 @@
     <link>https://ShreyasPunacha.github.io/publication/</link>
       <atom:link href="https://ShreyasPunacha.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ShreyasPunacha.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Theory and experiments of spiral unpinning in the Belousov–Zhabotinsky reaction using a circularly polarized electric field</title>
+      <link>https://ShreyasPunacha.github.io/publication/asv-2023-theory/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/asv-2023-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Phase Transition of Black Holes in Massive Gravity</title>
+      <link>https://ShreyasPunacha.github.io/publication/safir-2023-dynamic/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/safir-2023-dynamic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Theory and experiments of spiral unpinning in the Belousov-Zhabotinsky reaction using a circularly polarized electric field</title>

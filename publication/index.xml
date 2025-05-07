@@ -5,12 +5,36 @@
     <link>https://ShreyasPunacha.github.io/publication/</link>
       <atom:link href="https://ShreyasPunacha.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ShreyasPunacha.github.io/media/icon_hu63fdeb3d63b39f46b9d703f109b47821_20500_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://ShreyasPunacha.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Euclidean Thermodynamics and Lyapunov Exponents of Einstein-Power-Yang-Mills AdS Black Holes</title>
+      <link>https://ShreyasPunacha.github.io/publication/ajith-2025-euclidean/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/ajith-2025-euclidean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greybody factor for an electrically charged regular-de Sitter black holes in d-dimensions</title>
+      <link>https://ShreyasPunacha.github.io/publication/ali-2025-greybody/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/ali-2025-greybody/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perturbations of black holes surrounded by anisotropic matter field</title>
+      <link>https://ShreyasPunacha.github.io/publication/hegde-2025-perturbations/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ShreyasPunacha.github.io/publication/hegde-2025-perturbations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Spinning LQG black hole as a particle accelerator</title>
